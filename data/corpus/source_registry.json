@@ -1,0 +1,122 @@
+[
+  {
+    "source_id": "amfi",
+    "label": "AMFI India",
+    "source_type": "industry_body",
+    "trust_tier": "official",
+    "domain": "amfiindia.com",
+    "base_url": "https://www.amfiindia.com/",
+    "description": "Industry-standard categorization, investor education, and mutual fund reference material.",
+    "tags": ["mutual fund categories", "investor education", "factsheet reference"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "sebi_investor",
+    "label": "SEBI Investor Education",
+    "source_type": "regulator",
+    "trust_tier": "regulatory",
+    "domain": "investor.sebi.gov.in",
+    "base_url": "https://investor.sebi.gov.in/",
+    "description": "Regulatory investor guidance, scheme awareness, and protection-oriented educational material.",
+    "tags": ["regulation", "investor protection", "risk disclosure"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "investor_gov",
+    "label": "Investor.gov",
+    "source_type": "government_education",
+    "trust_tier": "reference",
+    "domain": "investor.gov",
+    "base_url": "https://www.investor.gov/",
+    "description": "General investing education on diversification, asset allocation, and long-term investing behavior.",
+    "tags": ["asset allocation", "diversification", "investor education"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "rbi_financial_education",
+    "label": "RBI Financial Education",
+    "source_type": "central_bank",
+    "trust_tier": "reference",
+    "domain": "rbi.org.in",
+    "base_url": "https://www.rbi.org.in/",
+    "description": "Macro and rates context useful for debt-fund interpretation and financial awareness.",
+    "tags": ["interest rates", "inflation", "debt funds"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "hdfc_mf",
+    "label": "HDFC Mutual Fund",
+    "source_type": "amc",
+    "trust_tier": "amc",
+    "domain": "hdfcfund.com",
+    "base_url": "https://www.hdfcfund.com/",
+    "description": "AMC-level factsheets, product notes, and scheme disclosures.",
+    "tags": ["factsheet", "portfolio disclosure", "amc reference"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "sbi_mf",
+    "label": "SBI Mutual Fund",
+    "source_type": "amc",
+    "trust_tier": "amc",
+    "domain": "sbimf.com",
+    "base_url": "https://www.sbimf.com/",
+    "description": "AMC-level scheme material, factsheets, and investor-facing product information.",
+    "tags": ["factsheet", "portfolio disclosure", "amc reference"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "icici_prudential_mf",
+    "label": "ICICI Prudential Mutual Fund",
+    "source_type": "amc",
+    "trust_tier": "amc",
+    "domain": "icicipruamc.com",
+    "base_url": "https://www.icicipruamc.com/",
+    "description": "AMC-level scheme material, factsheets, and investor-facing product information.",
+    "tags": ["factsheet", "portfolio disclosure", "amc reference"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "uti_mf",
+    "label": "UTI Mutual Fund",
+    "source_type": "amc",
+    "trust_tier": "amc",
+    "domain": "utimf.com",
+    "base_url": "https://www.utimf.com/",
+    "description": "AMC-level scheme material, factsheets, and investor-facing product information.",
+    "tags": ["factsheet", "portfolio disclosure", "amc reference"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "nippon_india_mf",
+    "label": "Nippon India Mutual Fund",
+    "source_type": "amc",
+    "trust_tier": "amc",
+    "domain": "mf.nipponindiaim.com",
+    "base_url": "https://mf.nipponindiaim.com/",
+    "description": "AMC-level scheme material, factsheets, and investor-facing product information.",
+    "tags": ["factsheet", "portfolio disclosure", "amc reference"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  },
+  {
+    "source_id": "mirae_asset_mf",
+    "label": "Mirae Asset Mutual Fund",
+    "source_type": "amc",
+    "trust_tier": "amc",
+    "domain": "miraeassetmf.co.in",
+    "base_url": "https://www.miraeassetmf.co.in/",
+    "description": "AMC-level scheme material, factsheets, and investor-facing product information.",
+    "tags": ["factsheet", "portfolio disclosure", "amc reference"],
+    "enabled": true,
+    "ingestion_mode": "local_snapshot"
+  }
+]
